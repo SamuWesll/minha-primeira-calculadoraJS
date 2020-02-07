@@ -22,25 +22,44 @@ body {
     margin: 20px;
     border: 2px solid white;
     align-self: center;
+    text-align: end;
+    font-family: 'Kelly Slab', cursive;
+    font-weight: bolder;
+}
+
+span {
+    margin: 10px;
 }
 
 #linhaTela {
     width: 100%;
     height: 10px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.377);
+    margin-bottom: 25px;
 }
 
 #teclas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#teclaDivida {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
 .botoes {
-    width: 20%;
+    width: 18%;
     /* height: 20px; */
     font-family: 'Kelly Slab', cursive;
     font-weight: bolder;
     margin: 10px;
     cursor: pointer;
+}
+
+.results {
+    width: 42%;
 }
