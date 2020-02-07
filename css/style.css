@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(198, 203, 204);
+    display: flex;
+    justify-content: center;
+}
+
+#calculadora {
+    width: 300px;
+    height: 500px;
+    background-color: rgb(59, 68, 68);
+    margin-top: 40px;
+    border-radius: 30px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+#tela {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(64, 100, 28);
+    margin: 20px;
+    border: 2px solid white;
+    align-self: center;
+}
+
+#linhaTela {
+    width: 100%;
+    height: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.377);
+}
+
+#teclas {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.botoes {
+    width: 20%;
+    /* height: 20px; */
+    font-family: 'Kelly Slab', cursive;
+    font-weight: bolder;
+    margin: 10px;
+    cursor: pointer;
+}
