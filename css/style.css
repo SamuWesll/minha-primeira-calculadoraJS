@@ -28,7 +28,8 @@ body {
 }
 
 span {
-    margin: 10px;
+    margin-right: 10px;
+    font-size: 32px;
 }
 
 #linhaTela {
@@ -47,19 +48,25 @@ span {
 #teclaDivida {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
 }
 
 .botoes {
-    width: 18%;
+    width: 20%;
     /* height: 20px; */
     font-family: 'Kelly Slab', cursive;
     font-weight: bolder;
     margin: 10px;
     cursor: pointer;
+    text-align: center;
+    text-align: center;
 }
 
 .results {
     width: 42%;
+}
+
+.reset {
+    background-color: brown;
 }
